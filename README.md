@@ -1,6 +1,6 @@
 # D-SRA-Pytorch
 
-This repository implements a deep-running model for super resolution of flow images captured by high-speed camera. 
+This repository implements a GAN based model for super resolution of flow images captured by high-speed camera. The images are first converted to low resolution by a learned degradation network, which is trained in unsupervised setting. Then like a typical SRGAN, the network is trianed in paired setting and finally stored to give inference.
  
  ## Architecture
  ![Degradation model] -------------------> contains all codes of degradation model, including:  train_De.py, predict_De.py
