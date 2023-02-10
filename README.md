@@ -3,9 +3,11 @@
 This repository implements a GAN based model for super resolution of flow images captured by high-speed camera. The images are first converted to low resolution by a learned degradation network, which is trained in unsupervised setting. Then like a typical SRGAN, the network is trianed in paired setting and finally stored to give inference.
  
  ## Architecture
- ![Degradation model] -------------------> contains all codes of degradation model, including:  train_De.py, predict_De.py
- [SRA model]  ----------------------->contains all codes of SRA model, including:  SRA_train.py, SRA _predict.py
- ![data] ---------------------> contains all data of D-SRA model training and testing, including LRHF, HRLF for Degradation model, LRHF and LRLF for SRA model
+ Degradation model -------------------> contains all codes of degradation model, including:  train_De.py, predict_De.py
+ 
+ SRA model  ----------------------->contains all codes of SRA model, including:  SRA_train.py, SRA _predict.py
+ 
+ data ---------------------> contains all data of D-SRA model training and testing, including LRHF, HRLF for Degradation model, LRHF and LRLF for SRA model
  
 
 ## How to Train
